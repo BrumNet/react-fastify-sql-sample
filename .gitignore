@@ -74,3 +74,47 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/server/node_modules
+/server/.pnp
+/server/.pnp.js
+
+# testing
+/server/coverage
+ 
+# misc
+/server/.DS_Store
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
+/server/.env
+
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+
+# dependencies
+/front/my-app/node_modules
+/front/my-app/.pnp
+/front/my-app/.pnp.js
+
+# testing
+/front/my-app/coverage
+ 
+# misc
+/front/my-app/.DS_Store
+/front/my-app/.env.local
+/front/my-app/.env.development.local
+/front/my-app/.env.test.local
+/front/my-app/.env.production.local
+/front/my-app/.env
+/front/my-app/build
+
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
